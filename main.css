@@ -1,0 +1,185 @@
+figure {
+   justify-content: center;
+    display: flex;
+    
+}
+h1 {
+    text-align: center;
+}
+.hob {
+    border-radius: 100px;
+}
+
+.hob:hover {
+    border-radius: 100px;
+    height: 100px;
+}
+
+@media (max-width: 800px) {
+    figure {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        gap: 40px;
+        padding: 20px;
+    }
+
+}
+
+.descricao {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.video {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+thead, tfoot {
+    
+    background-color: rgb(248, 104, 21);
+    
+}
+
+tbody {
+    background-color: bisque;
+}
+
+.experiencia {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.subtitle {
+    font-size: 6rem;
+    line-height: 1;
+    word-break: break-all;
+    text-transform: uppercase;
+    max-width: 5ch;
+}
+
+.experiencia .subtitle {
+    color: #b9b9b9;
+}
+
+.experiencia .exp-texto {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #817f7f;
+}
+
+.projetos {
+    color: rgb(49, 49, 49);
+    text-decoration: none;
+}
+
+.projetos:hover {
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+    .table {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 20px;
+    }
+
+}
+
+ul {
+    padding: 20px;
+    color:#817f7f
+}
+
+#lititle {
+    font-weight: bold;
+   
+    color:#817f7f;
+    font-size: 20px;
+    
+}
+
+ul:hover {
+    color:rgb(248, 104, 21);
+}
+
+ul h2 {
+    margin-bottom: 5px;
+}
+
+#formacao {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
+
+.if {
+    text-transform: uppercase;
+    color: #817f7f;
+    display:grid;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .if {
+        text-transform: uppercase;
+        color: #817f7f;
+        display: flex;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+}
+
+.tads {
+    text-transform: uppercase;
+    color: rgb(248, 104, 21);
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    #formacao {
+        max-width: 1200px;
+        padding: 40px 20px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 100px;
+    }
+    
+}
+
+
+
+

@@ -1,0 +1,29 @@
+:root {
+    background-color: #eafde6;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    color: #140d1a;
+    
+}
+
+
+
+h1, h2, h3, p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
