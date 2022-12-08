@@ -43,9 +43,20 @@ p {
 
 }
 
+@media (max-width: 800px) {
+    .video {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px;
+    }
+
+}
+
 thead, tfoot {
     
-    background-color: rgb(248, 104, 21);
+    background-color: #51d4db;
     
 }
 
@@ -57,17 +68,39 @@ tbody {
     max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flexbox;
     gap: 100px;
+}
+
+@media (max-width: 800px) {
+    .experiencia {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        gap: 40px;
+        
+        padding: 20px;
+    }
+
 }
 
 .subtitle {
     font-size: 6rem;
     line-height: 1;
-    word-break: break-all;
     text-transform: uppercase;
     max-width: 5ch;
+}
+
+@media (max-width: 800px) {
+    .subtitle {
+        display: grid;
+        font-size: 3rem;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        gap: 40px;
+        padding: 20px;
+    }
+
 }
 
 .experiencia .subtitle {
@@ -122,7 +155,7 @@ ul {
 }
 
 ul:hover {
-    color:rgb(248, 104, 21);
+    color:#51d4db;
 }
 
 ul h2 {
@@ -133,8 +166,7 @@ ul h2 {
     max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flexbox;
     gap: 100px;
 }
 
@@ -161,7 +193,7 @@ ul h2 {
 
 .tads {
     text-transform: uppercase;
-    color: rgb(248, 104, 21);
+    color: #51d4db;
     display: flex;
     font-weight: bold;
     font-size: 25px;
@@ -174,11 +206,32 @@ ul h2 {
         padding: 40px 20px;
         margin: 0 auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 100px;
     }
     
 }
+
+.c-loader {
+    justify-content: center;
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    padding: 100px;
+   
+  }
+
+  
+  @keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
 
 
 
