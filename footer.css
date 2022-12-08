@@ -1,7 +1,7 @@
 .conteiner {
     
     padding: 40px 20px;
-    background-color: rgb(248, 104, 21);;
+    background-color: #51d4db;;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
